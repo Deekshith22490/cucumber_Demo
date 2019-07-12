@@ -38,7 +38,7 @@ formatter.match({
   "location": "SeleniumScripts.user_is_on_Sales_force_Page()"
 });
 formatter.result({
-  "duration": 13934901389,
+  "duration": 17915811400,
   "status": "passed"
 });
 formatter.match({
@@ -51,7 +51,7 @@ formatter.match({
   "location": "SeleniumScripts.user_enters_in_user_name_field(String)"
 });
 formatter.result({
-  "duration": 672117553,
+  "duration": 551692409,
   "status": "passed"
 });
 formatter.match({
@@ -64,14 +64,14 @@ formatter.match({
   "location": "SeleniumScripts.user_enters_in_password_field(String)"
 });
 formatter.result({
-  "duration": 167713137,
+  "duration": 567305566,
   "status": "passed"
 });
 formatter.match({
   "location": "SeleniumScripts.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 3022224526,
+  "duration": 3649730860,
   "status": "passed"
 });
 });
