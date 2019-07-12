@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features="C:\\Users\\admin\\Google Drive\\Deekshith Code\\BATCH\\9-JUlY 2018\\workspace\\marchcucumber\\src\\test\\java\\Feature\\sfdc.feature",
+features="C:\\Users\\admin\\git\\cucumber_Demo\\marchcucumber\\src\\test\\java\\Feature\\sfdc.feature",
 glue= {"marchcucumber"},
 plugin = {
 "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html",
