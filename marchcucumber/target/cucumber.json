@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "TC02:Verify Login with valid username and password",
+        "description": "",
+        "id": "sales-force-testcases-login-feature;tc02:verify-login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18345797754,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on Sales force Page",
+            "match": {
+              "location": "SeleniumScripts.user_is_on_Sales_force_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1986657690,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters \"mithun.r@tekarch.com\" in user name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mithun.r@tekarch.com",
+                  "offset": 13
+                }
+              ],
+              "location": "SeleniumScripts.user_enters_in_user_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 455988439,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"mithun123\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mithun123",
+                  "offset": 13
+                }
+              ],
+              "location": "SeleniumScripts.user_enters_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4712385682,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "SeleniumScripts.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sales Force TestCases Login Feature",
+    "description": "",
+    "id": "sales-force-testcases-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/admin/Google Drive/Deekshith Code/BATCH/9-JUlY 2018/workspace/marchcucumber/src/test/java/Feature/sfdc.feature"
+  }
+]
