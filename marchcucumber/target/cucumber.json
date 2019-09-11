@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "TC02:Verify Login with valid username and password",
         "description": "",
         "id": "sales-force-testcases-login-feature;tc02:verify-login-with-valid-username-and-password",
@@ -12,63 +12,169 @@
         "steps": [
           {
             "result": {
-              "duration": 17915811400,
+              "duration": 19863751433,
               "status": "passed"
             },
-            "line": 3,
-            "name": "User is on Sales force Page",
+            "line": 4,
+            "name": "User login page is launched",
             "match": {
-              "location": "SeleniumScripts.user_is_on_Sales_force_Page()"
+              "location": "SeleniumScripts.user_login_page_is_launched()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 551692409,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User enters \"mithun.r@tekarch.com\" in user name field",
-            "match": {
-              "arguments": [
-                {
-                  "val": "mithun.r@tekarch.com",
-                  "offset": 13
-                }
-              ],
-              "location": "SeleniumScripts.user_enters_in_user_name_field(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 567305566,
+              "duration": 4603505566,
               "status": "passed"
             },
             "line": 5,
-            "name": "User enters \"mithun123\" in password field",
+            "name": "Valid Username enters username field",
             "match": {
-              "arguments": [
-                {
-                  "val": "mithun123",
-                  "offset": 13
-                }
-              ],
-              "location": "SeleniumScripts.user_enters_in_password_field(String)"
+              "location": "SeleniumScripts.Valid_Username_enters_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4289818666,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Valid Password enters Password field",
+            "match": {
+              "location": "SeleniumScripts.Valid_Password_enters_Password_field()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3649730860,
+              "duration": 9999411890,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User clicks on login button",
+            "line": 7,
+            "name": "User clicks on Login button",
             "match": {
-              "location": "SeleniumScripts.user_clicks_on_login_button()"
+              "location": "SeleniumScripts.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1904256613,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "SeleniumScripts.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@ignore"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "TC04A:Test forgot password link",
+        "description": "",
+        "id": "sales-force-testcases-login-feature;tc04a:test-forgot-password-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13111186664,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User login page is launched",
+            "match": {
+              "location": "SeleniumScripts.user_login_page_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 696162659,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks forgot password link",
+            "match": {
+              "location": "SeleniumScripts.user_clicks_forgot_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53680691,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "SalesForce forgot password page should be displayed",
+            "match": {
+              "location": "SeleniumScripts.salesforce_forgot_password_page_should_be_displayed()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4304163727,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Valid username enters username field in forgot password page",
+            "match": {
+              "location": "SeleniumScripts.valid_username_enters_username_field_in_forgot_password_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003302346,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Continue button is clicked",
+            "match": {
+              "location": "SeleniumScripts.continue_button_is_clicked()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16909959,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Password reset message page is displayed",
+            "match": {
+              "location": "SeleniumScripts.password_reset_message_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1155175342,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "close the browser",
+            "match": {
+              "location": "SeleniumScripts.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@ignore"
           }
         ]
       }
